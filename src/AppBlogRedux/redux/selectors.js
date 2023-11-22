@@ -1,0 +1,1 @@
+export const selectorEdit = state => state.edit;

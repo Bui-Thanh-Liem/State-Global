@@ -1,0 +1,97 @@
+
+.posts-container {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 62px;
+    z-index: 1;
+    
+    color: var(--white-color);
+    padding: 8px 16px;
+    border: 2px solid #313131;
+    background-color: #4e4e4e;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.posts-container .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.posts-title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.btn-posts {
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 10px 16px;
+    border-radius: 25px;
+    background-color: transparent;
+    color: var(--white-color);
+    border: 4px solid var(--blue-color);
+    cursor: pointer;
+    outline: none;
+}
+
+
+.input-container {
+    margin-top: 34px;
+}
+
+.tags-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.tags-container {
+    display: flex;
+    overflow-x: auto;
+}
+
+.tags-container button {
+    padding: 6px 8px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.tags-container button + button {
+    margin-left: 12px;
+}
+
+
+.tag-item-None {
+    background-color: red;
+
+}
+.tag-item-NSFW {
+    background-color: green;
+
+}
+
+.tag-item-Mood {
+    background-color: blue;
+
+}
+
+.tag-item-Quates {
+    background-color: aqua;
+
+}
+
+.tag-item-Shitpost {
+    background-color: pink;
+
+}
+
+.tag-item-active {
+    border: 2px solid #000;
+    color: black;
+    box-shadow: 0px 0px 10px yellow;
+}

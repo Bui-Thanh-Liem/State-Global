@@ -1,0 +1,16 @@
+@mixin borderRadius {
+    border-radius: 4px;
+}
+
+@mixin borderRadius_large {
+    border-radius: 12px;
+}
+
+@mixin boxShadow {
+    box-shadow: 4px 4px 4px var(--shadow-color);
+}
+
+@mixin hoverStyle {
+    -webkit-transition: background-color ease-in-out 200ms;
+    transition: background-color ease-in-out 200ms;
+}
